@@ -461,26 +461,26 @@ body {
   width: 100%;
   height: 40px;
   padding-bottom: 90px;
-  background: #0C0A25;
+  background: #0c0a25;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   margin-bottom: 120px;
 }
 
 .slider-inside {
   display: flex;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 136%; 
-  position: absolute; 
-  white-space: nowrap; 
-  animation: slide 20s linear infinite; 
+  line-height: 136%;
+  position: absolute;
+  white-space: nowrap;
+  animation: slide 20s linear infinite;
 }
 
 .slider-inside > h2 {
@@ -492,7 +492,7 @@ body {
 }
 
 .greenBall {
-  background-color: #41FF9E;
+  background-color: #41ff9e;
   width: 10px;
   height: 10px;
   border-radius: 999px;
@@ -500,87 +500,87 @@ body {
 
 /* testimonial slider section */
 
-.testimonialDiv >h2 {
+.testimonialDiv > h2 {
   color: #000;
   text-align: center;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px; /* 116.667% */
-  letter-spacing: -0.96px; 
+  letter-spacing: -0.96px;
   margin-bottom: 0px;
 }
 
-.testimonialDiv >p {
-  color: #4C4C4C;
+.testimonialDiv > p {
+  color: #4c4c4c;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   margin-bottom: 60px;
 }
 
-.reviewElement{
-  background: #F0F8FFD9; 
-backdrop-filter: blur(150px);
-border: 1px solid #5E5E5E;
-border-radius: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.reviewElement {
+  background: #f0f8ffd9;
+  backdrop-filter: blur(150px);
+  border: 1px solid #5e5e5e;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.reviewElement >img{
+.reviewElement > img {
   height: 72px;
   width: 72px;
   text-align: center;
   padding: 20px 220px 0px 220px;
 }
 
-.reviewElement >h2 {
+.reviewElement > h2 {
   color: #000;
-text-align: center;
-font-size: 21.8px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; 
-margin-bottom: 0px;
+  text-align: center;
+  font-size: 21.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 0px;
 }
-.reviewElement >p {
+.reviewElement > p {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #5C5C5C;
-text-align: center;
-font-size: 16.35px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; 
+  color: #5c5c5c;
+  text-align: center;
+  font-size: 16.35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
-.reviewElement >h6 {
+.reviewElement > h6 {
   margin-top: 10px;
-  color: #5E5E5E;
-text-align: center;
-padding: 0px 20px 0px 20px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
-letter-spacing: -0.54px;
+  color: #5e5e5e;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.54px;
 }
 
-.reviewElement >h5{
-  display: flex ;
+.reviewElement > h5 {
+  display: flex;
   align-items: center;
   gap: 4px;
   margin-top: 0px;
   color: #000;
 
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 22px; /* 137.5% */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
 }
 
 .reviewContainer {
@@ -594,14 +594,62 @@ line-height: 22px; /* 137.5% */
   margin-bottom: 220px;
 }
 
+.last-section {
+  background: #02033b;
+  max-width: 940px;
+  border-radius: 50px;
+  padding: 70px 70px;
+  display: flex;
+  gap: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
 
+.last-section > div > h2 {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.last-section > div > p {
+  color: #b0b0b0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 13px;
+}
+.last-section > div > button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 22px;
+  background-color: #41ff9e;
+  color: #000;
+  border-radius: 50px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.last-section > img {
+  border-radius: 12px;
+}
 
 @keyframes slide {
   0% {
-    transform: translateX(-150%); 
+    transform: translateX(-150%);
   }
   100% {
-    transform: translateX(100%); 
+    transform: translateX(100%);
   }
 }
 
