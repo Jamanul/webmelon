@@ -276,6 +276,132 @@ margin-bottom: 130px;
   max-width: 1220px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 100px;
+}
+
+/* service section */
+.serviceSection {
+  background-color: #0C0A25;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  padding: 125px 370px;
+  gap: 32px;
+}
+
+.cardOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardOne > div > h1 {
+  color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+letter-spacing: -0.96px;
+}
+.cardOne > div > p {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; 
+  margin-top: 20px;
+}
+.cardOne > div > * {
+  margin: 0px;
+}
+.cardOne > div > button {
+  border-radius: 50px;
+  background-color: #41FF9E;
+  color: #000;
+  padding: 14px 30px;
+  margin-top: 30px;
+}
+
+.rating {
+  padding-top: 120px;
+  
+}
+
+.ratingStar {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.ratingStar >p {
+  color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; 
+margin-right: 5px;
+}
+.ratingStar > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ratingStar > div > svg{
+  background-color: #219653;
+  padding: 3px;
+}
+
+.cardTwo {
+  border-radius: 20px;
+background-color: #C5E7FF;
+padding: 32px 24px 0px 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.cardTwo > div> h1 {
+  color: #000;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; 
+}
+
+.cardTwo > div> p{
+  color: #606060;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}
+.cardThree {
+  border-radius: 20px;
+background-color: #D3FEE8;
+padding: 32px 24px 0px 24px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.cardThree > div> h1 {
+  color: #000;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; 
+}
+
+.cardThree > div> p{
+  color: #606060;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
 }
 
 @media (prefers-color-scheme: light) {
