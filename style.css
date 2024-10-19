@@ -3,7 +3,6 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -179,6 +178,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 60px;
+  margin-bottom: 60px;
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
@@ -218,6 +218,64 @@ line-height: 136%;
 .green {
   color: #00C663;
   gap: 0px;
+}
+
+/* owner text section */
+
+.ownerSection {
+  text-align: center;
+}
+
+.ownerSection > h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+}
+.ownerSection > h1 > span {
+  color: #737373;
+  font-weight: 300;
+}
+.ownerSection > p > svg {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ownerSection > p {
+  text-align: center;
+}
+.ownerDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.ownerDetails > * {
+  margin: 1px;
+}
+
+.ownerName {
+color: #000;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 136%; 
+}
+.ownerTitle {
+color: #181732;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 136%; 
+margin-bottom: 130px;
+}
+
+.ownerImage {
+  display: flex;
+  gap: 60px;
+  max-width: 1220px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (prefers-color-scheme: light) {
