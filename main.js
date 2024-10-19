@@ -38,8 +38,11 @@ function startCountUpTwo(targetNumber) {
     }, 7.5); 
   }
 
+
+
   window.onload = function() {
     startCountUp(200); 
     startCountUpOne(20); 
-    startCountUpTwo(150); 
+    startCountUpTwo(150);
+ 
   };
